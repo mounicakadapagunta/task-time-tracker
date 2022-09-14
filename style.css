@@ -1,4 +1,5 @@
-/* .started {
+ /* style when project is started*/
+ .started {
         color: white;
         font-weight: bold;
         background: green;
@@ -7,10 +8,10 @@
     }
 
     /* style when project is completed */
-    /* .completed {
+     .completed {
         color: white;
         font-weight: bold;
         background: greenyellow;
         padding: 5px;
         border-radius: 5px;
-    }  */
+    }  
