@@ -421,7 +421,7 @@ var taskObj = {
     }
 };
 
-// whenever page loads
+// when the  page loads
 window.addEventListener("load", function () {
 
     // show all projects and tasks
@@ -431,7 +431,7 @@ window.addEventListener("load", function () {
     // call this function each second
     setInterval(function () {
 
-        // incrementing  1 second in all the running tasks
+        // incrementing 1 second in all the running tasks
         var dataStarted = document.querySelectorAll("td[data-started]");
         for (var i = 0; i < dataStarted.length; i++) {
             var dataStartedObj = dataStarted[i].getAttribute("data-started");
